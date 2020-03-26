@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb.host: localhost
+    mongodb.port: 27017
+    mongodb.uri: mongodb://localhost/e-shop
+    mongo.repositories.enabled: true
+
+productconfig:
+  categories:  
+    - id: foo
+      products:
+        - foo1
+        - foo2
+    - id: bar
+      products:
+        - bar1
+        - bar2    
